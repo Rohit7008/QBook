@@ -103,5 +103,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## ⭐️ Show Your Support
 
 If you like this project, consider giving it a ⭐️ on GitHub and sharing it with others!
-
-```
