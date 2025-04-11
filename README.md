@@ -1,41 +1,65 @@
 # 📚 QBook – Ask, Answer, Learn!
 
+Live Demo 🚀  
+🌐 [http://qbook.great-site.net/](http://qbook.great-site.net/)
+
 QBook is a simple and interactive question-and-answer platform built using **PHP**, **MySQL**, and **Bootstrap**. Inspired by platforms like Quora and Stack Overflow, QBook allows users to sign up, ask questions, and contribute answers, all within a clean and responsive UI.
 
-![logo](https://github.com/user-attachments/assets/af1af3d9-8da0-4162-a42f-85d4af68d8e8)
+---
+
+## 🔍 Features
+
+✅ User Authentication (Signup & Login)  
+✅ Ask Questions with Categories  
+✅ Answer Questions and View Replies  
+✅ Search & Filter by Category, User, or Keywords  
+✅ Delete Own Questions  
+✅ Flash Messages for Actions (e.g. successful deletion)  
+✅ Modular File Structure (DB, Routes, Views)  
+✅ Fully Responsive with Bootstrap 5
 
 ---
 
-## 📺 Demo
-
-🎥 **Video Demo**:  
-[![Watch the video](https://img.youtube.com/vi/your-video-id-here/0.jpg)](https://www.youtube.com/watch?v=your-video-id-here)  
-*Replace the link with your actual YouTube video URL.*
-
----
-🌐 **Live Site**:  
-👉 [http://qbook.great-site.net/](http://qbook.great-site.net/)
----
-
-## 🚀 Features
-
-- 🔐 User Authentication (Signup & Login)
-- ❓ Ask Questions with Categories
-- 💬 Answer Questions
-- 🔍 Search & Filter by Category, User, or Keywords
-- 🗑️ Delete Own Questions
-- ✅ Flash messages for actions (e.g. successful deletion)
-- 📦 Modular file structure (DB, Routes, Views)
-- 📱 Fully Responsive (Bootstrap 5)
+## 📸 Screenshots
+*Add your screenshots here using Markdown image links*
 
 ---
 
-## 🛠️ Technologies Used
+## ⚙️ Tech Stack
 
-- **Frontend**: HTML, CSS, Bootstrap 5, JavaScript
-- **Backend**: PHP (Vanilla PHP, no framework)
-- **Database**: MySQL
-- **Server**: XAMPP (Apache)
+| Frontend        | Backend        | Styling         | Tools / Hosting        |
+|----------------|----------------|------------------|--------------------------|
+| HTML, CSS      | PHP (Vanilla)  | Bootstrap 5     | XAMPP / InfinityFree     |
+| JavaScript     | MySQL          | Flash Messages  | GitHub, phpMyAdmin       |
+
+---
+
+## 🧠 How It Works
+
+- Users can sign up and log in to their accounts.
+- Once logged in, users can post questions under specific categories.
+- Other users can respond with answers.
+- Questions and answers are stored and retrieved from a MySQL database.
+- Users can view related questions by category and perform keyword searches.
+
+---
+
+## 🛠️ Getting Started (Locally)
+
+```bash
+# Clone the repository
+git clone https://github.com/Rohit7008/QBook.git
+cd QBook
+
+# Set up environment
+Start Apache and MySQL in XAMPP
+
+# Import the Database
+Open phpMyAdmin and import `qbook.sql`
+
+# Run the Application
+Access at: http://localhost/QBook/client/index.php
+```
 
 ---
 
@@ -58,52 +82,30 @@ QBook/
 ├── common/
 │   └── db.php
 │
-└── README.md
+└── qbook.sql
 ```
 
 ---
 
-## 🔧 Setup Instructions
+## 🎯 Upcoming Features
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/Rohit7008/QBook.git
-   cd QBook
-   ```
-
-2. **Start XAMPP**
-   - Start **Apache** and **MySQL**.
-
-3. **Import Database**
-   - Import the `qbook.sql` file into **phpMyAdmin** (or create schema and tables manually if you have SQL dump).
-
-4. **Run Locally**
-   - Access the app at `http://localhost/QBook/client/index.php`
+🗂️ Admin Dashboard for managing users & categories  
+📬 Email Notifications  
+🔍 Advanced Search Filters  
+📊 User Stats / Contributions  
+🔐 Password Encryption and Recovery System
 
 ---
 
-## ✨ Future Enhancements
+## 👨‍💻 Author
 
-- 👍 Upvote/Downvote system
-- 🏷️ Tag support
-- 📬 Email notifications
-- 📊 Admin dashboard
-- 🔒 Password encryption
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+**Rohit Pottavathini**  
+Developer | Designer | Builder  
+📧 [rowork30@gmail.com](mailto:rowork30@gmail.com)  
+GitHub · LinkedIn · Instagram
 
 ---
 
-## 📩 Contact
+## 📃 License
 
-**Developer**: Rohit Pottavathini  
-📧 Email: [rowork30@gmail.com](mailto:rowork30@gmail.com)  
----
-
-## ⭐️ Show Your Support
-
-If you like this project, consider giving it a ⭐️ on GitHub and sharing it with others!
+This project is licensed under the MIT License.
