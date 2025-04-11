@@ -4,13 +4,17 @@ QBook is a simple and interactive question-and-answer platform built using **PHP
 
 ![logo](https://github.com/user-attachments/assets/af1af3d9-8da0-4162-a42f-85d4af68d8e8)
 
+---
 
+## 📺 Demo
 
+🎥 **Video Demo**:  
+[![Watch the video](https://img.youtube.com/vi/your-video-id-here/0.jpg)](https://www.youtube.com/watch?v=your-video-id-here)  
+*Replace the link with your actual YouTube video URL.*
 
-https://github.com/user-attachments/assets/9430578e-6998-4df5-85e6-f6bdb2257883
-
-
-
+---
+🌐 **Live Site**:  
+👉 [http://qbook.great-site.net/](http://qbook.great-site.net/)
 ---
 
 ## 🚀 Features
